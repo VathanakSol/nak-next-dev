@@ -1,0 +1,19 @@
+import Link from 'next/link'
+import React from 'react'
+
+export default function Product() {
+  return (
+
+    <>
+        <div>This is Product Page</div>
+        <main className="grid place-content-center">            
+            <div>List of Product</div>
+            <ul>
+            <Link href="/products/21" className="text-blue-500">Electronic</Link>
+            <Link href="/products/22" className="text-red-500">Kitchen</Link>
+            </ul>
+        </main>
+    </>
+    
+  )
+}
