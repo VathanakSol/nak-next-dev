@@ -1,4 +1,4 @@
-import { Name } from "@/types/dynamic"
+import type { Name } from "@/types/name"
 
 export default function Name({ params }: Name) {
   return (
