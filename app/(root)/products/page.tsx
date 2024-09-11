@@ -13,6 +13,7 @@ export default function Product() {
             <Link href="/products/22" className="text-red-500">Kitchen</Link>
             <Link href="/products/23" className="text-red-500">Bathroom</Link>
             <Link href="/products/24" className="text-red-500">Living</Link>
+            <Link href="/products/25" className="text-red-500">Garden</Link>
             </ul>
         </main>
     </>
