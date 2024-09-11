@@ -6,11 +6,13 @@ export default function Product() {
 
     <>
         <div>This is Product Page</div>
-        <main className="grid place-content-center">            
-            <div>List of Product</div>
+        <main className="w-full grid place-content-center">            
+            <div className="flex justify-center items-center">List of Product</div>
             <ul>
             <Link href="/products/21" className="text-blue-500">Electronic</Link>
             <Link href="/products/22" className="text-red-500">Kitchen</Link>
+            <Link href="/products/23" className="text-red-500">Bathroom</Link>
+            <Link href="/products/24" className="text-red-500">Living</Link>
             </ul>
         </main>
     </>
