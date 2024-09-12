@@ -3,10 +3,9 @@ import React from 'react'
 
 export default function Product() {
   return (
-
     <>
         <div>This is Product Page</div>
-        <main className="w-full grid place-content-center">            
+        <main className="w-full grid place-content-center">
             <div className="flex justify-center items-center">List of Product</div>
             <ul>
             <Link href="/products/21" className="text-blue-500">Electronic</Link>
