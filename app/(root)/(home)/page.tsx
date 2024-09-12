@@ -1,10 +1,10 @@
-import React from 'react'
 
-export default function Homepage() {
-  return 
-  (
-    <main className="w-full text-center text-blue-500">
-      This is Home Page
-    </main>
+export default function HomePage() {
+  return (
+    <>
+      <main className="grid place-content-center">
+        <h1>This is Home Page</h1>
+      </main>
+    </>
   )
 }

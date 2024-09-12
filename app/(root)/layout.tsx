@@ -25,7 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">       
+      <html lang="en">
         <body className={inter.className}>
           <main className="h-[8vh] w-full bg-gray-100 flex justify-end items-center pr-4">
             <SignedIn>
