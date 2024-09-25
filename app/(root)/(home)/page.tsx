@@ -1,10 +1,7 @@
+import React from 'react'
 
-export default function HomePage() {
+export default function Home() {
   return (
-    <>
-      <main className="grid place-content-center">
-        <h1>This is Home Page</h1>
-      </main>
-    </>
+    <div>Home</div>
   )
 }
