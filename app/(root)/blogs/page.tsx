@@ -1,10 +1,7 @@
-import BlogList from '@/components/BlogList'
 import React from 'react'
 
-export default function page() {
+export default function BlogPage() {
   return (
-    <>
-        <BlogList initialBlogs={[]} />
-    </>
+    <div>This is Blog Page</div>
   )
 }
